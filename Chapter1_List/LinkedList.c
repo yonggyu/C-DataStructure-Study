@@ -51,6 +51,7 @@ void deleteAllNode(Node *p)
 		p_prev = p -> next;
 		free(p);
 		p = p_prev;
+		
 	}
 }
 
